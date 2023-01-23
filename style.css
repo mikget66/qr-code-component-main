@@ -1,0 +1,32 @@
+body{
+    background: lightskyblue;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.card{
+    width: 270px;
+    background: white;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+img{
+    width: 100%;
+    border-radius: .5rem;
+    margin-bottom: .6rem;
+}
+.title,
+.description{
+    text-align: center;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: .2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+.description{
+    color: hsl(210, 3%, 66%);
+    font-family: 'Fraunces', serif;
+}
