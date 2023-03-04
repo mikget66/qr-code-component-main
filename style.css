@@ -2,9 +2,9 @@ body{
     background: lightskyblue;
     display: grid;
     place-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
-.card{
+main{
     width: 270px;
     background: white;
     padding: 1rem;
@@ -19,14 +19,11 @@ img{
 .description{
     text-align: center;
 }
-.title{
-    font-size: 1.5rem;
-    font-weight: bold;
+h1{
     margin-bottom: .2rem;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
 }
-.description{
+p{
     color: hsl(210, 3%, 66%);
     font-family: 'Fraunces', serif;
 }
